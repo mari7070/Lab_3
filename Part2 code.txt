@@ -1,0 +1,17 @@
+root@b94bf8778dda:/app# mkdir bash_scripts
+root@b94bf8778dda:/app# cd bash_scripts/
+root@b94bf8778dda:/app/bash_scripts# vim regex_practice.txt
+root@b94bf8778dda:/app/bash_scripts# ls
+regex_practice.txt
+root@b94bf8778dda:/app/bash_scripts# vim practice.sh
+root@b94bf8778dda:/app/bash_scripts# ls
+practice.sh  regex_practice.txt
+root@b94bf8778dda:/app/bash_scripts# chmod +x practice.sh
+root@b94bf8778dda:/app/bash_scripts# ./practice.sh
+Enter a number:
+1
+Enter a second number:
+4
+The sum is : 5
+The product is: 4
+root@b94bf8778dda:/app/bash_scripts#
